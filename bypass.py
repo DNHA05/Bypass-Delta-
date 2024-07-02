@@ -1,3 +1,4 @@
+#Made Imharbl không được phép sửa để Tránh bot không chạy
 import discord
 from discord.ext import commands
 from discord import app_commands
@@ -6,7 +7,7 @@ import json
 import asyncio
 
 #---------- Informations require for the bot ----------#
-TOKEN = "MTI1NzM0NDIyMTYzNjA2NzQ5Mg.GR2tBv.zKOopnS2YNZ7sCvBvt-i9TupSbIgXypdsCxdIY"
+TOKEN = "Lấy token bot nhập vào đây"
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix='.', intents=intents)
     
@@ -17,7 +18,7 @@ async def delta_key(interaction, hwid):
     if hwid.startswith('https://gateway.platoboost.com/a/8?id='):
         hwid = hwid.replace('https://gateway.platoboost.com/a/8?id=', '')
 
-    code = "veru"
+    code = "DNHA"
 
     payload = {
         "captcha":"",
